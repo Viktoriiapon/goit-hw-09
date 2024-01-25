@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+.gallery {
+  width: 1440px;
+  padding: 24px 156px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: calc((1440px-72) / 3);
+  gap: 24px;
+  row-gap: 24px;
+}
+
+.gallery-item {
+  list-style: none;
+  background-color: #fff;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.sl-image {
+  color:blue;
+  font-size: 56px;
+  align-items: center;
+  }
